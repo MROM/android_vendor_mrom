@@ -9,10 +9,11 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/bin/fullgpu:system/bin/fullgpu \
 	vendor/mrom/prebuilt/common/system/xbin/su:system/xbin/su \
 	vendor/mrom/prebuilt/common/system/app/QuickPic.apk:system/app/QuickPic.apk \
-	vendor/mrom/prebuilt/common/system/app/MIUIcamera.apk:system/app/MIUIcamera.apk \
 	vendor/mrom/prebuilt/common/system/app/Mixer-MROM.apk:system/app/Mixer-MROM.apk \
 	vendor/mrom/prebuilt/common/system/app/Supersu.apk:system/app/Supersu.apk \
 	vendor/mrom/prebuilt/common/system/app/HoloLauncher.apk:system/app/HoloLauncher.apk \
 	vendor/mrom/prebuilt/common/system/app/MROM.apk:system/app/MROM.apk
 
 $(call inherit-product, vendor/mrom/mrom-olympus.mk)
+$(call inherit-product, vendor/mrom/mrom-encore.mk)
+$(call inherit-product, vendor/mrom/mrom-vivow.mk)

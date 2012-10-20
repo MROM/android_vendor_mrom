@@ -1,7 +1,7 @@
 # Generic cyanogenmod product
 PRODUCT_NAME := mrom
-PRODUCT_BRAND := mrom
-PRODUCT_DEVICE := generic
+PRODUCT_BRAND := motorola
+PRODUCT_DEVICE := olympus
 
 PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/lib/libnmea.so.234:system/lib/libnmea.so.234 \
