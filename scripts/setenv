@@ -1,0 +1,71 @@
+#!/bin/bash
+
+export SDK_HOME=~/android/android-sdk-linux
+export JAVA_HOME=~/android/jdk1.6.0_33
+export REPO_HOME=~/git_repos/atrix-mrom
+
+export PATH=${JAVA_HOME}/bin:$PATH:${SDK_HOME}/platform-tools
+#export PATH=$PATH:${SDK_HOME}/platform-tools
+
+export CM_DIR=~/android/system
+export KERNEL_DIR=~/android/kernel
+export BOOT_DIR=$KERNEL_DIR/boot-new
+#export CCOMPILER=$CM_DIR/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
+export CCOMPILER=arm-linux-gnueabi-
+
+export CM_BUILDTYPE=UNOFFICIAL
+
+export KERNEL_TYPE=kernel-moto-atrix4g
+
+if ! ps -ef | grep adb | grep -v grep>/dev/null; then
+	$HOME/android/android-sdk-linux/platform-tools/adb kill-server
+	$HOME/android/android-sdk-linux/platform-tools/adb start-server
+fi
+
+function init_repo {
+if ! test -d ~/bin; then
+        mkdir -p ~/bin
+fi
+if ! test -d $CM_DIR; then
+        mkdir -p $CM_DIR
+fi
+
+if ! test -f ~/bin/repo; then
+        curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+        chmod a+x ~/bin/repo
+fi
+
+cd $CM_DIR
+
+if ! test -d .repo; then
+        repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
+        repo sync -j16
+fi
+if ! test -d $KERNEL_DIR; then
+        mkdir -p $KERNEL_DIR
+fi
+}
+export -f init_repo
+
+function check_proprietary_files {
+if ! test -f $CM_DIR/vendor/motorola/olympus/proprietary/lib/libnvmm_camera.so; then
+        cd $CM_DIR/device/motorola/olympus/
+        ./extract-files.sh
+fi
+}
+export -f check_proprietary_files
+
+function check_rom_manager {
+if ! test -f $CM_DIR/vendor/cyanogen/proprietary/RomManager.apk; then
+        $CM_DIR/vendor/cyanogen/get-rommanager
+fi
+}
+export -f check_rom_manager
+
+function sync_repo {
+cd $CM_DIR
+
+repo sync
+}
+export -f sync_repo
+
