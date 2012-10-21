@@ -59,3 +59,6 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 10/19/2012: Updated QuickPic
 - 10/19/2012: (Atrix) Updated Battery Fix v0.21 App by Ravilov (Atrix)
 - 10/19/2012: Sync CyanogenMOD HEAD Repository
+- 10/19/2012: Added Supersu
+- 10/20/2012: Updated QuickPic
+- 10/20/2012: Completely new source build process
