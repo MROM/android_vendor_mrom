@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/app/QuickPic.apk:system/app/QuickPic.apk \
 	vendor/mrom/prebuilt/common/system/app/Mixer-MROM.apk:system/app/Mixer-MROM.apk \
 	vendor/mrom/prebuilt/common/system/app/Supersu.apk:system/app/Supersu.apk \
+	vendor/mrom/CHANGELOGMROM.txt:system/etc/CHANGELOG-MROM.txt \
 	vendor/mrom/prebuilt/common/system/app/MROM.apk:system/app/MROM.apk
 
 $(call inherit-product, vendor/mrom/mrom-olympus.mk)
