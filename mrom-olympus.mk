@@ -8,3 +8,7 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/bin/gpsfix234:system/bin/gpsfix234 \
 	vendor/mrom/prebuilt/common/system/app/HoloLauncher.apk:system/app/HoloLauncher.apk \
 	vendor/mrom/prebuilt/common/system/app/MIUIcamera.apk:system/app/MIUIcamera.apk 
+
+PRODUCT_PACKAGES += \
+    BatteryFix
+
