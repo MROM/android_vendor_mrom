@@ -66,3 +66,4 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 10/23/2012: Updated HoloLaucner
 - 10/23/2012: Reduced multitouch max to 5
 - 10/23/2012: BatteryFix from (ravilov) is now source built
+- 10/26/2012: Fixed MROM.apk for encore and future tablets (v1.6)
