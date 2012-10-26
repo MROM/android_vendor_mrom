@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export JAVA_HOME=~/android/jdk1.6.0_33
+
+export PATH=${JAVA_HOME}:$PATH
+
 function check_rom_manager {
 	if ! test -f vendor/cyanogen/proprietary/RomManager.apk; then
         	vendor/cyanogen/get-rommanager
