@@ -4,12 +4,12 @@ export JAVA_HOME=~/android/jdk1.6.0_33
 
 export PATH=${JAVA_HOME}:$PATH
 
-function check_rom_manager {
-	if ! test -f vendor/cyanogen/proprietary/RomManager.apk; then
-        	vendor/cyanogen/get-rommanager
+function check_cm_prebuilts {
+	if ! test -f vendor/cm/proprietary/Term.apk; then
+        	vendor/cm/get-prebuilts
 	fi
 	}
-export -f check_rom_manager
+export -f check_cm_prebuilts
 
 vendor_path=vendor/mrom
 
@@ -18,7 +18,7 @@ if ! test -d $vendor_path/scripts; then
 	exit
 fi
 
-check_rom_manager
+check_cm_prebuilts
 
 if ! diff vendor/mrom/build/buildspec.mk build/buildspec.mk; then
 	cp vendor/mrom/build/buildspec.mk build/buildspec.mk
