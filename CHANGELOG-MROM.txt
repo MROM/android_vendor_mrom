@@ -1,68 +1,25 @@
 MROM Changelog
 
-Based on CyanogenMOD 7.2 HEAD repository +
+Based on CyanogenMOD 9 HEAD repository +
 
-- 08/09/2012: Recompiled CyanogenMod 7.2
-- 08/10/2012: (Atrix) Recompiled CyanogenMod Atrix Kernel faux123, removed all debug attributes 
-- 08/10/2012: (Atrix) Recompiled proprietary wi-fi Atrix 4G kernel module
-- 08/11/2012: Switch /mnt/sdcard and /mnt/emmc
+- 08/09/2012: Recompiled CyanogenMod 9
+
+TODO:
 - 08/11/2012: (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
-- 08/12/2012: (Atrix) Recompiled kernel from atrix-dev-team source code
-- 08/12/2012: (Atrix) Recompiled WI-FI module dhd.ko from source code
-- 08/12/2012: Included Google Base Framework
 - 08/13/2012: Removed automatic error reporting
 - 08/13/2012: Changed boot animation
 - 08/13/2012: Install non market apps enabled by default
-- 08/14/2012: Replaced ADWLauncher with HaloLauncher
 - 08/14/2012: Updated Superuser application
 - 08/14/2012: Added MIUI Camera
 - 08/14/2012: (Atrix) Set Dalvik Heap Size to 96m, optimum for Atrix
 - 08/14/2012: Added QuickPic Gallery App
-- 08/15/2012: Increased WiFi scan to 150 seconds
 - 08/15/2012: Added most common Atrix 4G tweaks, GPU, Deep Sleep, Stream, etc.
-- 08/17/2012: Removed Google Apps to comply with Google Policy
-- 08/17/2012: Updated MIUI Camera
 - 08/20/2012: Updated build.prop network buffer properties, and other minor tweaks
 - 08/20/2012: Updated build.prop WiFi scan interval to 30 secs
-- 08/20/2012: Removed additional Debug flags and unreference library pointers from kernel
-- 08/24/2012: Fixed CMParts to report correct "Use Internal Storage" checkbox
 - 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
-- 08/27/2012: Increaded NUMTOUCH from 5 to 10
-- 08/28/2012: Sync with CyanogenMOD latest source code
 - 08/28/2012: Increased sdcard read_ahead buffer
-- 08/28/2012: Created the add-on hacks package. Now contains Bravia, xLoud, and Beats
-- 08/28/2012: Updated HoloLauncher to the latest version
-- 08/30/2012: (Atrix) Compiled Kernel with different frequencies, voltage, and settings
-- 08/31/2012: GingerBlurB is now the default theme
-- 09/03/2012: (Atrix) Additional tweaks for kernel governor, frequensies, and voltage
-- 09/04/2012: New MROM version update notification MROM.apk
-- 09/10/2012: Updated Holo Launcher
-- 09/10/2012: Updated QuickPic
-- 09/12/2012: (Atrix) Updated MROM Kernel to latest build #32
-- 09/13/2012: Fixed Switch back to external storage
-- 09/14/2012: Sync CyanogenMOD HEAD Repository
-- 09/15/2012: Added MROM Activity to trigger version check
-- 09/17/2012: Remove GingerBlurB Theme
+- 09/15/2012: Add MROM.apk
 - 09/17/2012: Added Mixer-MROM Theme
-- 09/22/2012: Updated QuickPic
-- 09/23/2012: Sync CyanogenMOD HEAD Repository
-- 09/23/2012: Updated HoloLauncher
-- 09/23/2012: Fixed for some users the Home and Search button does not work
-- 09/23/2012: Fixed lost lock screen for some users
-- 09/23/2012: Added /system/bin/fullgpu script to enable/disable full GPU rendering
-- 09/24/2012: (Atrix) Resync all native drivers and binaries
 - 09/24/2012: (Atrix) Added /system/bin/gpsfix234 script to enable/disable GPS GB 2.3.4 fix
-- 09/25/2012: Fix MIUI Camera FC on Color Selection
-- 10/07/2012: Updated MROM.apk v1.5 provided by Ravilov
-- 10/07/2012: (Atrix) Added Battery Fix v0.20 App by Ravilov (Atrix)
-- 10/08/2012: Synchronized CyanogenMOD HEAD repository
-- 10/19/2012: Updated QuickPic
-- 10/19/2012: (Atrix) Updated Battery Fix v0.21 App by Ravilov (Atrix)
 - 10/19/2012: Added Supersu
-- 10/20/2012: Updated QuickPic
-- 10/20/2012: Completely new source build process
-- 10/20/2012: Included ADW.Launcher
-- 10/23/2012: Sync CyanogenMOD HEAD Repository
-- 10/23/2012: Updated HoloLaucner
 - 10/23/2012: Reduced multitouch max to 5
-- 10/23/2012: BatteryFix from (ravilov) is now source built
