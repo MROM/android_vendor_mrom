@@ -4,6 +4,11 @@ Based on CyanogenMOD 9 HEAD repository +
 
 - 08/09/2012: Recompiled CyanogenMod 9
 - 08/14/2012: (Atrix) Set Dalvik Heap Size to 96m, optimum for Atrix
+- 09/17/2012: Added Mixer/CM9 Theme
+- 08/14/2012: Added QuickPic Gallery App
+- 10/19/2012: Added Supersu
+- 08/20/2012: Updated build.prop WiFi scan interval to 30 secs
+- 08/14/2012: Added MIUI Camera
 
 TODO:
 - 08/11/2012: (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
@@ -11,15 +16,10 @@ TODO:
 - 08/13/2012: Changed boot animation
 - 08/13/2012: Install non market apps enabled by default
 - 08/14/2012: Updated Superuser application
-- 08/14/2012: Added MIUI Camera
-- 08/14/2012: Added QuickPic Gallery App
 - 08/15/2012: Added most common Atrix 4G tweaks, GPU, Deep Sleep, Stream, etc.
 - 08/20/2012: Updated build.prop network buffer properties, and other minor tweaks
-- 08/20/2012: Updated build.prop WiFi scan interval to 30 secs
 - 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
 - 08/28/2012: Increased sdcard read_ahead buffer
 - 09/15/2012: Add MROM.apk
-- 09/17/2012: Added Mixer-MROM Theme
 - 09/24/2012: (Atrix) Added /system/bin/gpsfix234 script to enable/disable GPS GB 2.3.4 fix
-- 10/19/2012: Added Supersu
 - 10/23/2012: Reduced multitouch max to 5
