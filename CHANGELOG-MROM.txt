@@ -12,6 +12,7 @@ Based on CyanogenMOD 9 HEAD repository +
 - 08/13/2012: Changed boot animation
 - 11/02/2012: Implemented NUMTOUCH=5 and RAINDROP fix
 - 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
+- 08/26/2012: Set kernel governor default to "ondemand"
 
 TODO:
 - 08/11/2012: (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
