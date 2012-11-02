@@ -1,7 +1,4 @@
 # Generic cyanogenmod product
-PRODUCT_NAME := mrom
-PRODUCT_BRAND := mrom
-PRODUCT_DEVICE := generic
 
 PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/etc/init.d/90mrom:system/etc/init.d/90mrom \
@@ -12,7 +9,7 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/app/Supersu.apk:system/app/Supersu.apk \
 	vendor/mrom/CHANGELOG-MROM.txt:system/etc/CHANGELOG-MROM.txt
 
-$(call inherit-product, vendor/mrom/mrom-olympus.mk)
+$(call inherit-product, vendor/mrom/mrom-$(TARGET_DEVICE).mk)
 
 PRODUCT_PACKAGES += \
     MROM
