@@ -11,6 +11,7 @@ Based on CyanogenMOD 9 HEAD repository +
 - 08/14/2012: Added MIUI Camera
 - 08/13/2012: Changed boot animation
 - 11/02/2012: Implemented NUMTOUCH=5 and RAINDROP fix
+- 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
 
 TODO:
 - 08/11/2012: (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
@@ -19,7 +20,6 @@ TODO:
 - 08/14/2012: Updated Superuser application
 - 08/15/2012: Added most common Atrix 4G tweaks, GPU, Deep Sleep, Stream, etc.
 - 08/20/2012: Updated build.prop network buffer properties, and other minor tweaks
-- 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
 - 08/28/2012: Increased sdcard read_ahead buffer
 - 09/15/2012: Add MROM.apk
 - 09/24/2012: (Atrix) Added /system/bin/gpsfix234 script to enable/disable GPS GB 2.3.4 fix
