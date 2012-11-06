@@ -2,25 +2,27 @@ MROM Changelog
 
 Based on CyanogenMOD 9 HEAD repository +
 
-- 08/09/2012: Recompiled CyanogenMod 9
-- 08/14/2012: (Atrix) Set Dalvik Heap Size to 96m, optimum for Atrix
-- 09/17/2012: Added Mixer/CM9 Theme
-- 08/14/2012: Added QuickPic Gallery App
-- 10/19/2012: Added Supersu
-- 08/20/2012: Updated build.prop WiFi scan interval to 30 secs
-- 08/14/2012: Added MIUI Camera
-- 08/13/2012: Changed boot animation
-- 11/02/2012: Implemented NUMTOUCH=5 and RAINDROP fix
-- 08/26/2012: Changed AudioManager to have 30 volume steps instead of 15
-- 08/26/2012: Set kernel governor default to "ondemand"
-- xx/xx/xxxx: Implemented Ram Fix
+- 11/05/2012: Recompiled CyanogenMod 9
+- 11/05/2012: (Atrix) Set Dalvik Heap Size to 96m, optimum for Atrix
+- 11/05/2012: Added Mixer/CM9 Theme
+- 11/05/2012: Added QuickPic Gallery App
+- 11/05/2012: Added Supersu
+- 11/05/2012: Updated build.prop WiFi scan interval to 30 secs
+- 11/05/2012: Added MIUI Camera
+- 11/05/2012: Changed boot animation
+- 11/05/2012: Implemented NUMTOUCH=5 and RAINDROP fix
+- 11/05/2012: Changed AudioManager to have 30 volume steps instead of 15
+- 11/05/2012: Set kernel governor default to "ondemand"
+- 11/05/xxxx: Implemented Ram Fix
+- 11/05/2012: Add MROM.apk
 
 TODO:
-- 08/11/2012: (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
-- 08/13/2012: Removed automatic error reporting
-- 08/13/2012: Install non market apps enabled by default
-- 08/14/2012: Updated Superuser application
-- 08/15/2012: Added most common Atrix 4G tweaks, GPU, Deep Sleep, Stream, etc.
-- 08/20/2012: Updated build.prop network buffer properties, and other minor tweaks
-- 09/15/2012: Add MROM.apk
-- 09/24/2012: (Atrix) Added /system/bin/gpsfix234 script to enable/disable GPS GB 2.3.4 fix
+- (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
+- Remove automatic error reporting
+- Install non market apps enabled by default
+
+CURRENT ISSUES:
+- Camera Flash not timed correctly
+- Sometimes slow to wake up
+- Wi-Fi policy must be kept to Always to avoid most reboots
+- Wake up after phone call is slow
