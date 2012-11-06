@@ -20,6 +20,9 @@ TODO:
 - (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
 - Remove automatic error reporting
 - Install non market apps enabled by default
+- Finger Print
+- Resolve error 'E/NetlinkEvent(  165): NetlinkEvent::FindParam(): Parameter 'MDM_SHUTDOWN' not found'
+- Resolve error 'E/HWC_HDMI_MOT(  166): connectToExtDispIpc: Client Failed, No IPC Server'
 
 CURRENT ISSUES:
 - Camera Flash not timed correctly
