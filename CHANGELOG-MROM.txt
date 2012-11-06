@@ -26,3 +26,5 @@ CURRENT ISSUES:
 - Sometimes slow to wake up
 - Wi-Fi policy must be kept to Always to avoid most reboots
 - Wake up after phone call is slow
+- Occasional weird behaviors due to the kernel instability
+- Not all Atrix can run this ICS build until a more reliable kernel is released
