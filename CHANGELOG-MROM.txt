@@ -70,6 +70,7 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 11/05/2012: Fixed MROM.apk to support multiple Android versions (v1.7)
 - 11/06/2012: Updated QuickPic
 - 11/06/2012: Updated SuperSU
+- 11/09/2012: Updated ADW Launcher
 
 TODO:
 - SMS BlueTooth
