@@ -73,6 +73,7 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 11/09/2012: Updated ADW Launcher
 - 11/09/2012: Early usbd and apdd start for early logcat
 - 11/09/2012: changed init.rc to allow SMS BlueTooth (requires verification)
+- 10/10/2012: Sync CyanogenMOD HEAD Repository
 - 11/10/2012: Added Aerovan 0.8 bfs kernel (HTC Incredible 2)
 
 TODO:
