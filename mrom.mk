@@ -14,9 +14,7 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/app/ADWLauncher.apk:system/app/ADWLauncher.apk \
 	vendor/mrom/CHANGELOG-MROM.txt:system/etc/CHANGELOG-MROM.txt
 
-$(call inherit-product, vendor/mrom/mrom-olympus.mk)
-$(call inherit-product, vendor/mrom/mrom-encore.mk)
-$(call inherit-product, vendor/mrom/mrom-vivow.mk)
+$(call inherit-product, vendor/mrom/mrom-$(CM_BUILD).mk)
 
 PRODUCT_PACKAGES += \
     MROM
