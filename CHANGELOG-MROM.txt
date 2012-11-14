@@ -32,3 +32,15 @@ CURRENT ISSUES:
 - Wake up after phone call is slow
 - Occasional weird behaviors due to the kernel instability
 - Not all Atrix can run this ICS build until a more reliable kernel is released
+- Some Video Games don't work (need more information)
+- Stock Camera is a bit strange... Sometimes FC, sometimes don't start.
+- The black screen bug when you are on a call is the same as the wake up black screen bug, you can still use the screen while its black...
+- some apps close when you open then up... (you have to re-open)
+- Phone heats up
+- Battery life is about 6 hours of normal use.
+- GPS can't find any stellite.
+- Wi-Fi disconnect every 30-40 minutes of regular use.
+- Rington cough first 2-3 seconds after device wake up.
+- Permanent disconnect from mobile internet until reboot.
+- Alarm doesn't play sound.
+- There are random reboots on Google Navigation app startup
