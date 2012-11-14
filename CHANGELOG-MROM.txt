@@ -20,6 +20,7 @@ Based on CyanogenMOD 9 HEAD repository +
 - 11/06/2012: Added Missing Native Atrix Drivers
 
 TODO:
+- Port 2.6.39.4 Kernel to Atrix
 - (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
 - Remove automatic error reporting
 - Install non market apps enabled by default
