@@ -46,3 +46,5 @@ CURRENT ISSUES:
 - Permanent disconnect from mobile internet until reboot.
 - Alarm doesn't play sound.
 - There are random reboots on Google Navigation app startup
+- Some video games do not function
+- Idle battery consumption is high
