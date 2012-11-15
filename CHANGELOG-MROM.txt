@@ -28,23 +28,38 @@ TODO:
 - Finger Print
 
 CURRENT ISSUES:
-- Camera Flash not timed correctly
+- Camera Flash not timed correctly or not working at all
 - Sometimes slow to wake up
+  * When phone goes in deep sleep, takes few seconds to wake up
 - Wi-Fi policy must be kept to Always to avoid most reboots
-- Wake up after phone call is slow
+  * This is a kernel module problem
+- Wake up after phone call is slow.
+  * Phone goes to sleep alter call.
 - Occasional weird behaviors due to the kernel instability
 - Not all Atrix can run this ICS build until a more reliable kernel is released
-- Some Video Games don't work (need more information)
 - Stock Camera is a bit strange... Sometimes FC, sometimes don't start.
-- The black screen bug when you are on a call is the same as the wake up black screen bug, you can still use the screen while its black...
+  * Unable to reproduce
+- Black screen bug
+  * when you are on a call is the same as the wake up black screen bug, you can still use the screen while its black...
 - some apps close when you open then up... (you have to re-open)
 - Phone heats up
+  * This is related to Kernel
 - Battery life is about 6 hours of normal use.
+  * Mostly related to Kernel
 - GPS can't find any stellite.
+  * Cannot reproduce, takes time to sync the first time, but works after that.
 - Wi-Fi disconnect every 30-40 minutes of regular use.
 - Rington cough first 2-3 seconds after device wake up.
+  * Unable to reproduce.
 - Permanent disconnect from mobile internet until reboot.
+  * Unable to reproduce in USA. Need more testing outside USA.
 - Alarm doesn't play sound.
+  * Unable to reproduce.
 - There are random reboots on Google Navigation app startup
-- Some video games do not function
+- Video games do not function
+  * Angry Birds works but gets SIG11 (Segmentation Fault)
+  * Asphalt 7: works, but framerate is poor. On logcat see nothing special except libs which it uses
+  * Dead Trigger - works fine on high details as on every rom
+  * NFS: Hot Pursuit - works
 - Idle battery consumption is high
+- Mixer Theme Gmail colors are not correct
