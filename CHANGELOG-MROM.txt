@@ -27,6 +27,7 @@ TODO:
 - Remove automatic error reporting
 - Install non market apps enabled by default
 - Finger Print
+- Increase sdcard buffers to 1024kb
 
 CURRENT ISSUES:
 - Camera Flash not timed correctly or not working at all
