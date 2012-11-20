@@ -23,7 +23,7 @@ Based on CyanogenMOD 9 HEAD repository +
 
 TODO:
 - Port 2.6.39.4 Kernel to Atrix
-- (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
+- (Atrix) SymLink /mnt/sdcard-ext /storage/sdcard1 for correct Atrix Operations
 - Remove automatic error reporting
 - Install non market apps enabled by default
 - Finger Print
