@@ -78,5 +78,7 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 11/10/2012: Added Motorola Atrix Missing Drivers
 - 11/23/2012: Updated QuickPic
 - 11/23/2012: Updated ADWLauncher
+- 12/04/2012: Sync CyanogenMOD HEAD Repository
+- 12/04/2012: Updated SuperSU
 
 TODO:
