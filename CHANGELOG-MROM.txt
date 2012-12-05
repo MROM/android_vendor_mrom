@@ -21,6 +21,7 @@ Based on CyanogenMOD 9 HEAD repository +
 - 11/14/2012: Sync CyanogenMOD ICS HEAD Repository
 - 11/15/2012: Updated SuperSU
 - 11/23/2012: Updated QuickPic
+- 12/04/2012: Updated SuperSU
 
 TODO:
 - Port 2.6.39.4 Kernel to Atrix
