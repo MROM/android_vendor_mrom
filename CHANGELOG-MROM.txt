@@ -80,5 +80,7 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 11/23/2012: Updated ADWLauncher
 - 12/04/2012: Sync CyanogenMOD HEAD Repository
 - 12/04/2012: Updated SuperSU
+- 01/13/2013: Incredible2 720p improved settings
+- 01/13/2013: Incredible2 rotate lights tweak
 
 TODO:
