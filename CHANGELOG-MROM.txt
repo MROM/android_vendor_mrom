@@ -83,5 +83,7 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 01/12/2013: 720p improved settings (Incredible 2)
 - 01/13/2013: Rotate lights tweak (Incredible 2)
 - 01/13/2013: Sync CyanogenMOD HEAD Repository
+- 01/13/2013: Updated QuickPic
+- 01/13/2013: Updated Holo Launcher
 
 TODO:
