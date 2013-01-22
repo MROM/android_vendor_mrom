@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repos=`cat android/default.xml | grep "MROM/" | awk '{ print $3 }' | awk -F= '{ print $2 }' | sed 's/"//g' | awk -F/ '{ print $2 }'`
+repos=`cat android/default.xml | grep "MROM/" | awk '{ print $3 }' | awk -F= '{ print $2 }' | sed 's/"//g' | sed 's/>//'g | awk -F/ '{ print $2 }'`
 
 if [ "$1" != "fetch" ] &&
 	[ "$1" != "merge" ] &&

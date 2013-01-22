@@ -1,34 +1,18 @@
 MROM Changelog
 
-Based on CyanogenMOD 9 HEAD repository +
+Based on CyanogenMOD 10 HEAD repository +
 
-- 11/05/2012: Recompiled CyanogenMod 9
-- 11/05/2012: (Atrix) Set Dalvik Heap Size to 96m, optimum for Atrix
+- 11/05/2012: Recompiled CyanogenMod 10
 - 11/05/2012: Added Mixer/CM9 Theme
 - 11/05/2012: Added QuickPic Gallery App
 - 11/05/2012: Added Supersu
-- 11/05/2012: Updated build.prop WiFi scan interval to 30 secs
-- 11/05/2012: Added MIUI Camera
-- 11/05/2012: Changed boot animation
-- 11/05/2012: Implemented NUMTOUCH=5 and RAINDROP fix
 - 11/05/2012: Changed AudioManager to have 30 volume steps instead of 15
-- 11/05/2012: Set kernel governor default to "ondemand"
-- 11/05/xxxx: Implemented Ram Fix
-- 11/05/2012: Add MROM.apk
-- 11/06/2012: Resolved error 'E/NetlinkEvent(  165): NetlinkEvent::FindParam(): Parameter 'MDM_SHUTDOWN' not found'
-- 11/06/2012: Resolved error 'E/HWC_HDMI_MOT(  166): connectToExtDispIpc: Client Failed, No IPC Server'
-- 11/06/2012: Added Finger Print native drivers
 
 TODO:
-- (Atrix) SymLink /mnt/sdcard-ext /mnt/emmc for correct Atrix Operations
+- Changed boot animation
+- Add MROM.apk
 - Remove automatic error reporting
 - Install non market apps enabled by default
 - Finger Print
 
 CURRENT ISSUES:
-- Camera Flash not timed correctly
-- Sometimes slow to wake up
-- Wi-Fi policy must be kept to Always to avoid most reboots
-- Wake up after phone call is slow
-- Occasional weird behaviors due to the kernel instability
-- Not all Atrix can run this ICS build until a more reliable kernel is released
