@@ -1,7 +1,5 @@
 #!/bin/bash
 
-repos=`cat android/default.xml | grep "MROM/" | awk '{ print $3 }' | awk -F= '{ print $2 }' | sed 's/"//g' | sed 's/>//'g | awk -F/ '{ print $2 }'`
-
 if [ "$1" != "fetch" ] &&
 	[ "$1" != "merge" ] &&
 	[ "$1" != "tag" ] &&
@@ -9,13 +7,19 @@ if [ "$1" != "fetch" ] &&
 	[ "$1" != "list" ] &&
 	[ "$1" != "status" ] &&
 	[ "$1" != "push" ]; then
-	echo "usage `basename $0` {fetch|merge|push|list|status|tag} {tag}"
+	echo "usage `basename $0` {fetch|merge|push|list|status|tag} {tag} [filter]"
 	exit
 fi
 
 if [ "$1" == "tag" ] && [ "$2" == "" ]; then
 	echo "usage `basename $0` {fetch|merge|push|tag} {tag}"
 	exit
+fi
+
+if [ "$3" == "" ]; then
+	repos=`cat android/default.xml | grep "MROM/" | awk '{ print $3 }' | awk -F= '{ print $2 }' | sed 's/"//g' | sed 's/>//'g | awk -F/ '{ print $2 }'`
+else
+	repos=`ls -d *$3*`
 fi
 
 if [ "$1" == "list" ]; then
