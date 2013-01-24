@@ -2,17 +2,16 @@ MROM Changelog
 
 Based on CyanogenMOD 10 HEAD repository +
 
-- 11/05/2012: Recompiled CyanogenMod 10
-- 11/05/2012: Added Mixer/CM9 Theme
-- 11/05/2012: Added QuickPic Gallery App
-- 11/05/2012: Added Supersu
-- 11/05/2012: Changed AudioManager to have 30 volume steps instead of 15
+- 01/22/2012: Recompiled CyanogenMod 10
+- 01/22/2012: Added Mixer/CM9 Theme
+- 01/22/2012: Added QuickPic Gallery App
+- 01/22/2012: Added Supersu
+- 01/22/2012: Changed AudioManager to have 30 volume steps instead of 15
+- 01/22/2013: Changed boot animation
+- 01/22/2013: Added MROM.apk
 
 TODO:
-- Changed boot animation
-- Add MROM.apk
 - Remove automatic error reporting
 - Install non market apps enabled by default
-- Finger Print
 
 CURRENT ISSUES:
