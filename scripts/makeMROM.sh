@@ -26,7 +26,7 @@ check_cm_prebuilts
 
 if ! diff vendor/mrom/build/core/build_id.mk build/core/build_id.mk; then
 	cp vendor/mrom/build/core/build_id.mk build/core/build_id.mk
-if
+fi
 
 #export CM_BUILDTYPE=EXPERIMENTAL
 
