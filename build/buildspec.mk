@@ -31,7 +31,7 @@ endif
 # User is what we ship.  Userdebug is that, with a few flags turned on
 # for debugging.  Eng has lots of extra tools for development.
 ifndef TARGET_BUILD_VARIANT
-TARGET_BUILD_VARIANT:=user
+#TARGET_BUILD_VARIANT:=user
 #TARGET_BUILD_VARIANT:=userdebug
 #TARGET_BUILD_VARIANT:=eng
 endif
@@ -53,8 +53,7 @@ endif
 # Set this to debug or release if you care.  Otherwise, it defaults to
 # release for arm and debug for the simulator.
 ifndef TARGET_BUILD_TYPE
-TARGET_BUILD_TYPE:=release
-#TARGET_BUILD_TYPE:=debug
+#TARGET_BUILD_TYPE:=release
 endif
 
 # Uncomment this if you want the host tools built in debug mode.  Otherwise
