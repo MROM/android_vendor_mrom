@@ -10,9 +10,9 @@ Based on CyanogenMOD 10.1 HEAD repository +
 - 02/04/2013: Added QuickPic Gallery
 - 02/04/2013: Implemented SuperSU
 - 02/04/2013: Added MROM ChangeLog
+- 02/04/2013: MROM Boot Animation
 
 TODO:
-- Change Boot Animation
 - Update CyanogenMOD Update to be MROM Update
 - Non market app enabled by default
 - Increase SDCard Buffers
