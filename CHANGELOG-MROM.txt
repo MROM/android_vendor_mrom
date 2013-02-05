@@ -11,6 +11,7 @@ Based on CyanogenMOD 10.1 HEAD repository +
 - 02/04/2013: Implemented SuperSU
 - 02/04/2013: Added MROM ChangeLog
 - 02/04/2013: MROM Boot Animation
+- 02/04/2013: Display MROM version
 
 TODO:
 - Update CyanogenMOD Update to be MROM Update
