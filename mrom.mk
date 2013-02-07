@@ -15,6 +15,6 @@ PRODUCT_PACKAGES += \
     MROM
 
 PRODUCT_PROPERTY_OVERRIDES += \
-       persist.sys.themeId = FusterCluck \
-       persist.sys.themePackageName = com.fustercluck.free
+       persist.sys.themeId = Cobalt Inferno \
+       persist.sys.themePackageName = com.dustinb.theme.cobaltinferno
 
