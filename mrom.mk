@@ -5,7 +5,6 @@ PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/lib/libqpicjni100.so:system/lib/libqpicjni100.so \
 	vendor/mrom/prebuilt/common/system/xbin/su:system/xbin/su \
 	vendor/mrom/prebuilt/common/system/app/QuickPic.apk:system/app/QuickPic.apk \
-	vendor/mrom/prebuilt/common/system/app/CobaltInferno.apk:system/app/CobaltInferno.apk \
 	vendor/mrom/prebuilt/common/system/app/Supersu.apk:system/app/Supersu.apk \
 	vendor/mrom/CHANGELOG-MROM.txt:system/etc/CHANGELOG-MROM.txt
 
@@ -14,7 +13,5 @@ $(call inherit-product, vendor/mrom/mrom-$(CM_BUILD).mk)
 PRODUCT_PACKAGES += \
     MROM
 
-PRODUCT_PROPERTY_OVERRIDES += \
-       persist.sys.themeId = Cobalt Inferno \
-       persist.sys.themePackageName = com.dustinb.theme.cobaltinferno
+# PRODUCT_PROPERTY_OVERRIDES +=
 
