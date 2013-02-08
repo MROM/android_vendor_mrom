@@ -85,5 +85,9 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 01/13/2013: Sync CyanogenMOD HEAD Repository
 - 01/13/2013: Updated QuickPic
 - 01/13/2013: Updated Holo Launcher
+- 02/08/2013: Sync CyanogenMOD HEAD Repository
+- 02/08/2013: Updated QuickPic
+- 02/08/2013: Updated Holo Launcher
+- 02/08/2012: Updated SuperSU
 
 TODO:
