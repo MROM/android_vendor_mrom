@@ -7,7 +7,7 @@ if [ "$1" != "fetch" ] &&
 	[ "$1" != "list" ] &&
 	[ "$1" != "status" ] &&
 	[ "$1" != "push" ]; then
-	echo "usage `basename $0` {fetch|merge|push|list|status|tag} {tag} [filter]"
+	echo "usage `basename $0` {fetch|merge|push|list|status|tag|checkout} {tag} [filter]"
 	exit
 fi
 
