@@ -14,6 +14,7 @@ Based on CyanogenMOD 10.1 HEAD repository +
 - 02/05/2013: Display MROM version
 - 02/05/2013: Removed CMUpdater
 - 02/05/2013: Added MROM.apk
+- 02/09/2013: Added Cobalt Inferno as Default Theme
 
 TODO:
 - Non market app enabled by default
