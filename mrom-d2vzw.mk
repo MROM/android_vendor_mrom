@@ -1,3 +1,3 @@
 # Generic cyanogenmod product
-PRODUCT_DEVICE := d2att
+PRODUCT_DEVICE := d2vzw
 
