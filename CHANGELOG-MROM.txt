@@ -89,5 +89,6 @@ Based on CyanogenMOD 7.2 HEAD repository +
 - 02/13/2013: Updated QuickPic
 - 02/13/2013: Updated Holo Launcher
 - 02/13/2012: Updated SuperSU
+- 02/15/2012: Rotate lights disabled by default. Scripts added to enable/disable in /system/xbin (vivow)
 
 TODO:
