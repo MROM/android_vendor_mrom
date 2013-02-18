@@ -17,6 +17,7 @@ Based on CyanogenMOD 10.1 HEAD repository +
 - 02/09/2013: Added Cobalt Inferno from dustinb as Default Theme
 - 02/16/2013: Sync HEAD CyanogenMOD repo
 - 02/16/2013: Added Camera from theunkn0wn 2.1 (d2*)
+- 02/17/2013: Optimized Kernel. Removed most DEBUG defconfigs
 
 TODO:
 - Non market app enabled by default
