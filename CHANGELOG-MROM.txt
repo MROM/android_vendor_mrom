@@ -2,22 +2,24 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
-- 01/27/2012: Sync HEAD CyanogenMOD repo
-- 01/27/2012: Changed AudioManager to have 30 volume steps instead of 15
-- 01/30/2013: Remove anonymus stats
-- 01/30/2013: Set build type to eng
-- 02/04/2013: Change build id to display MROM
-- 02/04/2013: Added QuickPic Gallery
-- 02/04/2013: Implemented SuperSU
-- 02/04/2013: Added MROM ChangeLog
-- 02/04/2013: MROM Boot Animation
-- 02/05/2013: Display MROM version
-- 02/05/2013: Removed CMUpdater
-- 02/05/2013: Added MROM.apk
-- 02/09/2013: Added Cobalt Inferno from dustinb as Default Theme
-- 02/16/2013: Added Camera from theunkn0wn 2.1 (d2*)
-- 02/17/2013: Optimized Kernel. Removed most DEBUG defconfigs (d2att, d2vzw)
+- 02/20/2013: Fixed Crop Picture (Bug reported by NightxFall)
 - 02/19/2013: Sync HEAD CyanogenMOD repo
+- 02/17/2013: Optimized Kernel. Removed most DEBUG defconfigs (d2att, d2vzw)
+- 02/17/2013: Fixed Panorama Mode for Camera (Bug reported by Spurtle)
+- 02/16/2013: Added Camera from theunkn0wn 2.1 (d2*)
+- 02/09/2013: Added Cobalt Inferno from dustinb as Default Theme
+- 02/05/2013: Added MROM.apk
+- 02/05/2013: Removed CMUpdater
+- 02/05/2013: Display MROM version
+- 02/04/2013: MROM Boot Animation
+- 02/04/2013: Added MROM ChangeLog
+- 02/04/2013: Implemented SuperSU
+- 02/04/2013: Added QuickPic Gallery
+- 02/04/2013: Change build id to display MROM
+- 01/30/2013: Set build type to eng
+- 01/30/2013: Remove anonymus stats
+- 01/27/2012: Changed AudioManager to have 30 volume steps instead of 15
+- 01/27/2012: Sync HEAD CyanogenMOD repo
 
 TODO:
 - Non market app enabled by default
