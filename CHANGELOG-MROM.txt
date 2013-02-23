@@ -2,8 +2,9 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 02/22/2013: Updated Proprietary Drivers (d2-common)
+- 02/22/2013: Sync HEAD CyanogenMOD repo
 - 02/20/2013: Fixed Crop Picture (Bug reported by NightxFall)
-- 02/19/2013: Sync HEAD CyanogenMOD repo
 - 02/17/2013: Optimized Kernel. Removed most DEBUG defconfigs (d2att, d2vzw)
 - 02/17/2013: Fixed Panorama Mode for Camera (Bug reported by Spurtle)
 - 02/16/2013: Added Camera from theunkn0wn 2.1 (d2*)
