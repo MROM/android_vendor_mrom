@@ -2,6 +2,7 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 02/23/2013: Sync HEAD CyanogenMOD repo
 - 02/23/2013: Updated Kernel to 3.0.66
 - 02/22/2013: Updated Proprietary Drivers (d2-common)
 - 02/22/2013: Sync HEAD CyanogenMOD repo
