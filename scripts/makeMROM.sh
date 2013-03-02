@@ -20,15 +20,15 @@ fi
 
 check_cm_prebuilts
 
-if ! diff vendor/mrom/build/buildspec.mk build/buildspec.mk; then
-	cp vendor/mrom/build/buildspec.mk build/buildspec.mk
-fi
+#if ! diff vendor/mrom/build/buildspec.mk build/buildspec.mk; then
+#	cp vendor/mrom/build/buildspec.mk build/buildspec.mk
+#fi
 
 if ! diff vendor/mrom/build/core/build_id.mk build/core/build_id.mk; then
 	cp vendor/mrom/build/core/build_id.mk build/core/build_id.mk
 fi
 
-export CM_BUILDTYPE=EXPERIMENTAL
+#export CM_BUILDTYPE=EXPERIMENTAL
 
 if [ "$1" == "" ]; then
 	echo "echo $0 {device}"
@@ -36,8 +36,10 @@ if [ "$1" == "" ]; then
 fi
 
 device=$1
+mv out.$device out
 
 . build/envsetup.sh
 
 brunch $device
 
+mv out out.$device
