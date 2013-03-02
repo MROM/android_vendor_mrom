@@ -1,7 +1,10 @@
 MROM Changelog
 
-Based on CyanogenMOD 10 HEAD repository +
+Based on CyanogenMOD 10 (jellybean) HEAD repository +
 
+- 03/02/2013: Sync CyanogenMOD HEAD repo
+- 03/02/2013: Updated SuperSU
+- 03/02/2013: Updated QuickPIc
 - 01/22/2012: Recompiled CyanogenMod 10
 - 01/22/2012: Added Mixer/CM9 Theme
 - 01/22/2012: Added QuickPic Gallery App
