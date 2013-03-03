@@ -37,7 +37,11 @@ fi
 
 device=$1
 
+mv out.$device out
+
 . build/envsetup.sh
 
 brunch $device
+
+mv out out.$device
 
