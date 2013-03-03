@@ -5,9 +5,7 @@ if test -d out; then
 	exit
 fi
 
-devices="d2att d2vzw d2spr d2tmo"
-
-for device in $devices; do
+for device in `cat vendor/mrom/build/device.txt`; do
 	echo "building $device..."
 	./makeMROM.sh $device	
 done
