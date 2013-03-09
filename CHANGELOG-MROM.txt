@@ -2,10 +2,10 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 03/09/2013: Sync HEAD CyanogenMOD repo
 - 03/07/2013: Updated QuickPic
 - 03/07/2013: Updated SuperSU
 - 03/07/2013: Updated Cobalt Inferno
-- 03/07/2013: Sync HEAD CyanogenMOD repo
 - 03/01/2013: Updated Kernel to 3.0.68
 - 03/01/2013: Updated Kernel to 3.0.67
 - 03/01/2013: Released d2spr and d2tmo
