@@ -18,5 +18,5 @@ fi
 
 for device in `cat vendor/mrom/build/device.txt`; do
 	echo "building $device..."
-	./makeMROM.sh $device	
+	./makeMROM.sh $device > /tmp/build.${device}.txt 2>&1
 done
