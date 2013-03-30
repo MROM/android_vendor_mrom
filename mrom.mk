@@ -5,7 +5,7 @@ PRODUCT_DEVICE := generic
 
 PRODUCT_COPY_FILES += \
 	vendor/mrom/prebuilt/common/system/etc/init.d/90mrom:system/etc/init.d/90mrom \
-	vendor/mrom/prebuilt/common/system/lib/libqpicjni100.so:system/lib/libqpicjni100.so \
+	vendor/mrom/prebuilt/common/system/lib/libqpic106.so:system/lib/libqpic106.so \
 	vendor/mrom/prebuilt/common/system/bin/fullgpu:system/bin/fullgpu \
 	vendor/mrom/prebuilt/common/system/xbin/su:system/xbin/su \
 	vendor/mrom/prebuilt/common/system/app/QuickPic.apk:system/app/QuickPic.apk \
