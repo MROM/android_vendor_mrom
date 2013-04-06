@@ -2,11 +2,11 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 04/06/2013: Sync HEAD CyanogenMOD repo
 - 04/06/2013: Updated kernel to 3.4.39
 - 03/29/2013: Updated QuickPic
 - 03/29/2013: Updated Cobalt Inferno
 - 03/29/2013: Removed Supersu
-- 03/29/2013: Sync HEAD CyanogenMOD repo
 - 03/09/2013: Fixed home button log press bug (d2*)
 - 03/09/2013: Sync HEAD CyanogenMOD repo
 - 03/07/2013: Updated QuickPic
