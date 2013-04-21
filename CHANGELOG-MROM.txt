@@ -2,7 +2,9 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
-- 04/19/2013: Sync HEAD CyanogenMOD repo
+- 04/20/2013: Sync HEAD CyanogenMOD repo
+- 04/20/2013: Updated CobaltCyanOrangen
+- 04/19/2013: Updated proprietary libs
 - 04/19/2013: Reverted to AOSP Camera
 - 04/19/2013: Updated kernel to 3.4.41
 - 04/06/2013: Sync HEAD CyanogenMOD repo
