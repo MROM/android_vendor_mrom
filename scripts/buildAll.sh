@@ -6,7 +6,6 @@ if test -d out; then
 fi
 
 if [ "$1" == "clean" ]; then
-	echo "cleaning before building"
 	for device in `cat vendor/mrom/build/device.txt`; do
 		echo -n "cleaning $device..."
 		if test -d out.${device}; then
