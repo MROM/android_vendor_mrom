@@ -14,6 +14,7 @@ if [ "$1" == "clean" ]; then
 		fi
 		echo "done"
 	done
+	exit
 fi
 
 for device in `cat vendor/mrom/build/device.txt`; do

@@ -2,7 +2,7 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
-- 04/21/2013: Updated kernel to 3.0.74 (d2*)
+- 04/21/2013: Updated kernel to 3.0.74 (d2*) (NOT ACTIVE Currently on 3.4)
 - 04/21/2013: Sync HEAD CyanogenMOD repo
 - 04/20/2013: Updated CobaltCyanOrangen
 - 04/19/2013: Updated proprietary libs (d2-common)
