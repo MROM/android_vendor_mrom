@@ -2,6 +2,7 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 05/22/2013: Updated to kernel 3.4.46
 - 05/15/2013: Sync HEAD CyanogenMOD repo
 - 05/15/2013: Updated to kernel 3.4.45
 - 05/05/2013: Sync HEAD CyanogenMOD repo
