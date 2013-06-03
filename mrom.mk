@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/mrom/mrom-$(CM_BUILD).mk)
 
 PRODUCT_PACKAGES += \
-    ROMControl \
     MROM
 
 #PRODUCT_PACKAGES += \
@@ -19,6 +18,7 @@ PRODUCT_PACKAGES += \
 #    mGerrit \
 #    Microbes \
 #    PermissionsManager \
+#    ROMControl \
 #    Superuser \
 #    su \
 #    SwagPapers \
