@@ -39,8 +39,10 @@ device=$1
 mv out.$device out
 
 # Setup Linaro symlinks
-ln -s prebuilts/gcc/linux-x86/arm/linaro-4.6 prebuilts/gcc/linux-x86/arm/arm-eabi-4.6
-ln -s prebuilts/gcc/linux-x86/arm/linaro-4.6 prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6
+cd prebuilts/gcc/linux-x86/arm
+ln -s linaro-4.6 arm-eabi-4.6
+ln -s linaro-4.6 arm-linux-androideabi-4.6
+cd ../../../../
 # end Linaro setup
 
 . build/envsetup.sh
