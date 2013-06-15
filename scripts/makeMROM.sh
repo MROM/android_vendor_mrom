@@ -20,16 +20,6 @@ fi
 
 check_cm_prebuilts
 
-#if ! diff vendor/mrom/build/buildspec.mk build/buildspec.mk; then
-#	cp vendor/mrom/build/buildspec.mk build/buildspec.mk
-#fi
-
-#if ! diff vendor/mrom/build/core/build_id.mk build/core/build_id.mk; then
-#	cp vendor/mrom/build/core/build_id.mk build/core/build_id.mk
-#fi
-
-#export CM_BUILDTYPE=EXPERIMENTAL
-
 if [ "$1" == "" ]; then
 	echo "echo $0 {device}"
 	exit
@@ -39,13 +29,20 @@ device=$1
 mv out.$device out
 
 # Setup Linaro symlinks
+if [ "$2" == "4.7" ]; then
+	LINARO_DIR=linaro-4.7
+else 
+	LINARO_DIR=linaro-4.6
+fi
 cd prebuilts/gcc/linux-x86/arm
 if ! test -h arm-eabi-4.6; then
-	ln -s linaro-4.6 arm-eabi-4.6
+	rm arm-eabi-4.6
 fi
+ln -s $LINARO_DIR arm-eabi-4.6
 if ! test -h arm-linux-androideabi-4.6; then
-	ln -s linaro-4.6 arm-linux-androideabi-4.6
+	rm arm-linux-androideabi-4.6
 fi
+ln -s $LINARO_DIR arm-linux-androideabi-4.6
 cd ../../../../
 # end Linaro setup
 
