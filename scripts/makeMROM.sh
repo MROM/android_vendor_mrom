@@ -30,8 +30,10 @@ mv out.$device out
 
 # Setup Linaro symlinks
 if [ "$2" == "4.7" ]; then
+	echo using Linaro 4.7
 	LINARO_DIR=linaro-4.7
 else 
+	echo using Linaro 4.6
 	LINARO_DIR=linaro-4.6
 fi
 cd prebuilts/gcc/linux-x86/arm
