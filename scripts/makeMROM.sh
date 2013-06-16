@@ -37,11 +37,11 @@ else
 	LINARO_DIR=linaro-4.6
 fi
 cd prebuilts/gcc/linux-x86/arm
-if ! test -h arm-eabi-4.6; then
+if test -h arm-eabi-4.6; then
 	rm arm-eabi-4.6
 fi
 ln -s $LINARO_DIR arm-eabi-4.6
-if ! test -h arm-linux-androideabi-4.6; then
+if test -h arm-linux-androideabi-4.6; then
 	rm arm-linux-androideabi-4.6
 fi
 ln -s $LINARO_DIR arm-linux-androideabi-4.6
