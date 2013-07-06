@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export JAVA_HOME=~/android/jdk1.6.0_33
-
 export PATH=${JAVA_HOME}:$PATH
 
 function check_cm_prebuilts {

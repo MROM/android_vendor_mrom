@@ -25,6 +25,7 @@ else
 fi
 
 if [ "$1" == "list" ]; then
+	repos=`cat android/default.xml | grep "MROM/"`
 	echo "$repos"
 	exit
 fi
