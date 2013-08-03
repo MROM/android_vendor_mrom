@@ -4,7 +4,7 @@ Based on CyanogenMOD 10.1 HEAD repository +
 
 - 07/28/2013: Enabled Multi User
 - 07/28/2013: Sync HEAD CyanogenMOD repo
-- 07/28/2013: Updated kernel to 3.4.51 (d2*)
+- 07/28/2013: Updated kernel to 3.4.55 (d2*)
 - 06/27/2013: Updated CobaltCyanOrangen
 - 06/27/2013: Updated kernel to 3.4.51 (d2*)
 - 06/27/2013: Sync HEAD CyanogenMOD repo
