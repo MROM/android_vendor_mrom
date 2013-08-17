@@ -2,6 +2,8 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 08/17/2013: Updated CobaltCyanOrangen
+- 08/17/2013: Sync HEAD CyanogenMOD repo
 - 08/06/2013: Enabled Fast-Charge in kernel (d2*)
 - 07/28/2013: Enabled Multi User
 - 07/28/2013: Sync HEAD CyanogenMOD repo
