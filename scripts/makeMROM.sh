@@ -48,6 +48,9 @@ cd ../../../../
 
 . build/envsetup.sh
 
+# Use CCACHE
+export USE_CCACHE=1
+
 brunch $device
 
 mv out out.$device
