@@ -23,8 +23,13 @@ if [ "$1" == "" ]; then
 	exit
 fi
 
+cur_dir=`pwd`
 device=$1
-mv out.$device out
+export OUT_DIR_COMMON_BASE=${cur_dir}/out.${device}
+#mv out.$device out
+
+# Use CCACHE
+export USE_CCACHE=1
 
 # Setup Linaro symlinks
 if [ "$2" == "4.7" ]; then
@@ -48,9 +53,6 @@ cd ../../../../
 
 . build/envsetup.sh
 
-# Use CCACHE
-export USE_CCACHE=1
-
 brunch $device
 
-mv out out.$device
+#mv out out.$device
