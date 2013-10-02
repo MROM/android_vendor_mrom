@@ -2,6 +2,10 @@ MROM Changelog
 
 Based on CyanogenMOD 10.1 HEAD repository +
 
+- 09/30/2013: Removed CMAccount App
+- 09/30/2013: Updated vendor files (d2att)
+- 09/30/2013: Updated kernel to 3.4.63 (d2*)
+- 09/30/2013: Sync HEAD CyanogenMOD repo (cm-10.1)
 - 08/17/2013: Updated CobaltCyanOrangen
 - 08/17/2013: Sync HEAD CyanogenMOD repo
 - 08/06/2013: Enabled Fast-Charge in kernel (d2*)
